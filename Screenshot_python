@@ -1,1 +1,9 @@
-This code takes full screen shot using Python code
+#This code takes a full screenshot using Python code
+
+# Install Package Pillow PIL
+# Install Package pyscreenshot
+
+import pyscreenshot
+image = pyscreenshot.grab()
+image.show()
+image.save("screenshot.png")  #Saves image
