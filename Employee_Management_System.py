@@ -3,7 +3,7 @@
 import mysql.connector
 
 con = mysql.connector.connect(
-	host="localhost",user="root",password="Tiger@1998",port='3306',database="emp"
+	host="localhost",user="root",password="YourPassword",port='3306',database="emp"
 
 )
 def Add_Employee():
